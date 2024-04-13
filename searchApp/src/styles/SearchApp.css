@@ -1,0 +1,27 @@
+.search-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-field {
+  margin-bottom: 6rem;
+  width: 90vh;
+  padding: 1.5rem;
+  border: none;
+  border-bottom: 1px solid var(--black);
+  outline: none;
+}
+
+.input-field::placeholder {
+  font-size: 1.6rem;
+}
+
+.products-container {
+  display: grid;
+  grid-template-columns: 70rem 70rem;
+  /* grid-template-rows: repeat(10, 50rem); */
+  grid-template-rows: auto;
+  gap: 4rem;
+}
